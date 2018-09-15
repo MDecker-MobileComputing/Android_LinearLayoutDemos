@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LinearLayout-Demos</string>
+
+    <string name="label_gelb_1">Gelb 1</string>
+    <string name="label_grau_1">Grau 1</string>
+
+    <string name="label_gelb_2">Gelb 2</string>
+    <string name="label_grau_2">Grau 2</string>
+
+    <string name="label_gelb_3">Gelb 3</string>
+    <string name="label_grau_3">Grau 3</string>
+
+    <string name="label_gelb_4">Gelb 4</string>
+    <string name="label_grau_4">Grau 4</string>
+
+    <string name="label_gelb_5">Gelb 5</string>
+    <string name="label_grau_5">Grau 5</string>
+
+</resources>

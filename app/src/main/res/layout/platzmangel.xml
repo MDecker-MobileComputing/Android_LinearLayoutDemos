@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:id="@+id/LinearLayout1"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  tools:context=".MainActivity" >
+
+    
+    <!-- Gelb-Grau-Paar Nr. 1 -->
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_gelb_1" 
+              android:background="#FFFF00" /><!-- Farb-Code für Gelb -->
+        
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_grau_1" 
+              android:background="#80909090" /><!-- Farb-Code für ein helles Grau -->
+    
+    
+    <!-- Gelb-Grau-Paar Nr. 2 -->
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_gelb_2" 
+              android:background="#FFFF00" />    
+
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_grau_2" 
+              android:background="#80909090" />
+    
+    
+    <!-- Gelb-Grau-Paar Nr. 3 -->    
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_gelb_3" 
+              android:background="#FFFF00" />    
+
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_grau_3" 
+              android:background="#80909090" />
+
+    
+    <!-- Gelb-Grau-Paar Nr. 4 -->    
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_gelb_4" 
+              android:background="#FFFF00" />    
+
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_grau_4" 
+              android:background="#80909090" />
+    
+    
+    <!-- Gelb-Grau-Paar Nr. 5 -->    
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_gelb_5" 
+              android:background="#FFFF00" />    
+
+    <TextView android:layout_width="wrap_content"        
+              android:layout_height="wrap_content"
+              android:text="@string/label_grau_5" 
+              android:background="#80909090" />    
+
+</LinearLayout>
