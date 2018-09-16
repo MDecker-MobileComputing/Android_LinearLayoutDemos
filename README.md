@@ -22,7 +22,8 @@ Comments (JavaDoc) and UI texts are in German.
 ----
 ## Screenshots
 
-First layout file `platzmangel.xml` shows what happens when there is lack of space to display all elements in a *LinearLayout*: 
+First layout file `platzmangel.xml` shows what happens when there is lack of space to display all elements in a *LinearLayout*:<br>
+
 ![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
 
 For this example the *auto rotate* feature of the Android device or emulator instance has to be enabled.
