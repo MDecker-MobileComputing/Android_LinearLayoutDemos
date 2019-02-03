@@ -13,7 +13,7 @@ import android.os.Bundle;
 public class MainActivity extends Activity {
 
     /**
-     * Es muss immer genau eine der setContentView()-Anweisungen
+     * Es muss immer genau eine der beiden setContentView()-Anweisungen
      * einkommentiert sein.
      */
     @Override
