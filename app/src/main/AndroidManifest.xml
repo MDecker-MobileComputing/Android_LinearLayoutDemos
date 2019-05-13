@@ -3,8 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.mide.linearlayout_demos"
     android:installLocation="auto"
-    android:versionCode="2"
-    android:versionName="1.1 (Februar 2019)">
+    android:versionCode="3"
+    android:versionName="1.2 (Mai 2019)">
+
 
     <application
         android:allowBackup="true"

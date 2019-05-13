@@ -12,12 +12,14 @@ import android.os.Bundle;
  */
 public class MainActivity extends Activity {
 
+
     /**
-     * Es muss immer genau eine der beiden setContentView()-Anweisungen
+     * Es muss immer genau eine der beiden {@code setContentView()}-Anweisungen
      * einkommentiert sein.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
         setContentView( R.layout.platzmangel );
