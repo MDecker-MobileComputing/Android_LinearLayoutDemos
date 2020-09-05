@@ -10,14 +10,14 @@ import android.os.Bundle;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class ScrollviewActivity extends Activity {
+public class ScrollViewActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
 
-        setContentView( R.layout.linearlayout_in_scrollview );
+        setContentView( R.layout.scrollview);
     }
 
 }
