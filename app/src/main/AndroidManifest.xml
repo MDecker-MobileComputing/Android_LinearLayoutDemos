@@ -22,6 +22,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".PlatzmangelActivity" />
+
+        <activity android:name=".VerschachteltActivity" />
+
+        <activity android:name=".ScrollviewActivity" />
+
     </application>
 
 </manifest>

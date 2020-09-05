@@ -1,37 +1,26 @@
 # Android-App "LinearLayout-Demo"
 
-App contains several layout files using [*LinearLayout*](https://developer.android.com/reference/android/widget/LinearLayout).
- Exactly one of these layout files must be loaded in method *onCreate()*
- of class *MainActivity*:
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        setContentView( R.layout.platzmangel );
-
-        //setContentView( R.layout.verschachtelt );
-    }
-
-<br>
-
-Comments (JavaDoc) and UI texts are in German.
+This app contains several activities based on *LinearLayout*.
+The following aspects of using *LinearLayout* in Android are shown:
+* Behaviour when *LinearLayout* is not wide enought to display all its child elements.
+* Nested *LinearLayout*.
+* ScrollView containing a *LinearLayout*.
 
 <br>
 
 ----
 ## Screenshots
 
-First layout file `platzmangel.xml` shows what happens when there is lack of space to display all elements in a *LinearLayout*:<br>
 
-![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
+![Screenshot 1](screenshot_1.png)
 
-For this example the *auto rotate* feature of the Android device or emulator instance has to be enabled.
+![Screenshot 2](screenshot_2.png) ![Screenshot 3](screenshot_3.png)
 
-<br><br>
+![Screenshot 4](screenshot_4.png)
 
-Second layout file `verschachtelt.xml` shows that *LinearLayouts* (like other layouts) can be nested:
-![Screenshot 3](screenshot_3.png)
+<br>
+
+![Screenshot 5](screenshot_5.png)
 
 <br>
 
