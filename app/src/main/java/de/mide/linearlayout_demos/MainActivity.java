@@ -51,7 +51,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     /**
      * Event-Handler-Methode für die Buttons, mit der die Navigation zu einer der
-     * anderen Activites ausgelöst wird.
+     * anderen Activites ausgelöst wird. Es wird zusätzlich ein Toast mit dem
+     * Hinweis, dass man mit dem Back-Button zurück zum Hauptmenü kommt, angezeigt.
      *
      * @param view  Referenz auf Button, der das Event ausgelöst hat.
      */
@@ -76,7 +77,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             intent = new Intent(this, ScrollViewActivity.class);
             startActivity(intent);
-
         }
 
         Toast.makeText(this, R.string.hinweis_backbutton ,Toast.LENGTH_SHORT).show();
