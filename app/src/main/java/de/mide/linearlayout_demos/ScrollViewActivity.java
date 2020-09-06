@@ -12,6 +12,9 @@ import android.os.Bundle;
  */
 public class ScrollViewActivity extends Activity {
 
+    /**
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
