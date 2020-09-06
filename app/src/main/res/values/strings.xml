@@ -2,7 +2,7 @@
 
     <string name="app_name">LinearLayout-Demos</string>
 
-    <!-- Labels für MainActivity -->
+    <!-- Texte für MainActivity -->
     <string name="label_platzmangel"  >LinearLayout mit Platzmangel</string>
     <string name="label_verschachtelt">Verschachtelte LinearLayouts</string>
     <string name="label_scrollview"   >LinearLayout in ScrollView</string>
@@ -10,7 +10,7 @@
     <string name="hinweis_backbutton">Betätigen Sie den Zurück-Button um zurück zum Hauptmenü zu gelangen.</string>
 
 
-    <!-- Labels für platzmangel.xml -->
+    <!-- Texte für PlatzmangelActivity -->
     <string name="label_gelb_1">Gelb 1</string>
     <string name="label_grau_1">Grau 1</string>
 
@@ -27,7 +27,7 @@
     <string name="label_grau_5">Grau 5</string>
 
 
-    <!-- Labels für ScrollviewActivity -->
+    <!-- Texte für ScrollviewActivity -->
     <string name="label_aaa">AAA</string>
     <string name="label_bbb">BBB</string>
 
