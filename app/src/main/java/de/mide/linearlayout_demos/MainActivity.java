@@ -26,6 +26,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /** Button zum Absprung auf Activity, die Layout-Datei mit einem LinearLayout in einem Scrollview lädt. */
     private Button _scrollviewButton = null;
 
+    /** Flag, damit Toast mit Hinweis zur Rücknavigation nur einmal pro App-Lauf angezeigt wird. */
+    private boolean _hinweisWurdeGezeigt = false;
+
 
     /**
      * Lifecycle-Methode: Lädt Layout-Datei, füllt Member-Variablen mit Referenzen
@@ -52,7 +55,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /**
      * Event-Handler-Methode für die Buttons, mit der die Navigation zu einer der
      * anderen Activites ausgelöst wird. Es wird zusätzlich ein Toast mit dem
-     * Hinweis, dass man mit dem Back-Button zurück zum Hauptmenü kommt, angezeigt.
+     * Hinweis, dass man mit dem Back-Button zurück zum Hauptmenü kommt, angezeigt (aber
+     * nur beim ersten Mal pro Start der App).
      *
      * @param view  Referenz auf Button, der das Event ausgelöst hat.
      */
@@ -79,7 +83,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             startActivity(intent);
         }
 
-        Toast.makeText(this, R.string.hinweis_backbutton ,Toast.LENGTH_SHORT).show();
+        if (_hinweisWurdeGezeigt == false) {
+
+            Toast.makeText(this, R.string.hinweis_backbutton ,Toast.LENGTH_SHORT).show();
+            _hinweisWurdeGezeigt  = true;
+        }
     }
 
 }
