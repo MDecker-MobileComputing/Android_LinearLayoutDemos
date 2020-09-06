@@ -5,7 +5,7 @@
 
         <!-- Ein ScrollView-Element darf nur EIN direktes Kind-Element haben
              (sonst crasht die Activity), deshalb kapseln wir den eigentlichen
-             Inhalt in einem LinearLayout
+             Inhalt in einem LinearLayout.
           -->
 
         <LinearLayout
