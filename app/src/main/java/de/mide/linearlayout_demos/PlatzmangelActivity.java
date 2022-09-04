@@ -23,4 +23,5 @@ public class PlatzmangelActivity extends Activity {
 
         setContentView( R.layout.platzmangel );
     }
+
 }
