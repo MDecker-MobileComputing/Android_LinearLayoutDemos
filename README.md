@@ -1,4 +1,6 @@
-# Android-App "LinearLayout-Demo"
+# Android-App "LinearLayout-Demo" #
+
+<br>
 
 This app contains several activities based on *LinearLayout*.
 The following aspects of using *LinearLayout* in Android are shown:
@@ -9,7 +11,8 @@ The following aspects of using *LinearLayout* in Android are shown:
 <br>
 
 ----
-## Screenshots
+
+## Screenshots ##
 
 <br>
 
@@ -27,9 +30,14 @@ The following aspects of using *LinearLayout* in Android are shown:
 
 ![Screenshot 5](screenshot_5.png)
 
-<br><br>
+<br>
 
 ----
+
 # License
 
+<br>
+
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
+
+<br>
