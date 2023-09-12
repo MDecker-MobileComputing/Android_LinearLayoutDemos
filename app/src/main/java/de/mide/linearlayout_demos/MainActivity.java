@@ -68,14 +68,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             intent = new Intent(this, PlatzmangelActivity.class);
             startActivity(intent);
 
-        }
-        else if (view == _verschachteltButton) {
+        } else if (view == _verschachteltButton) {
 
             intent = new Intent(this, VerschachteltActivity.class);
             startActivity(intent);
 
-        }
-        else if (view == _scrollviewButton) {
+        } else if (view == _scrollviewButton) {
 
             intent = new Intent(this, ScrollViewActivity.class);
             startActivity(intent);
@@ -83,7 +81,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         if (_hinweisWurdeGezeigt == false) {
 
-            Toast.makeText(this, R.string.hinweis_backbutton ,Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.hinweis_backbutton ,
+                    Toast.LENGTH_SHORT).show();
             _hinweisWurdeGezeigt  = true;
         }
     }
