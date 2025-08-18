@@ -1,4 +1,4 @@
-package de.mide.linearlayout_demos;
+package de.mide.android.handzaehler;
 
 import org.junit.Test;
 

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LinearLayout-Dmo"
+rootProject.name = "Handzähler"
 include ':app'
