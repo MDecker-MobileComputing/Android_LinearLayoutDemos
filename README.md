@@ -2,11 +2,13 @@
 
 <br>
 
-This app contains several activities based on *LinearLayout*.
-The following aspects of using *LinearLayout* in Android are shown:
-* Behaviour when *LinearLayout* is not wide enought to display all its child elements.
-* Nested *LinearLayout*.
-* *ScrollView* containing a *LinearLayout*.
+Dieses Repo enthält eine native Android-App (Java).
+Die App enthält mehrere Activities, die das
+[LinearLayout](https://developer.android.com/develop/ui/views/layout/linear?hl=de)
+verwenden und folgende Dinge demonstrieren:
+* Verhalten bei Platzmangel
+* Verschachtelte *LinearLayout*-Instanzen
+* *ScrollView* mit *LinearLayout*
 
 <br>
 
@@ -20,7 +22,7 @@ The following aspects of using *LinearLayout* in Android are shown:
 
 <br><br>
 
-![Screenshot 3](screenshot_3.png) ![Screenshot 2](screenshot_2.png) 
+![Screenshot 3](screenshot_3.png) ![Screenshot 2](screenshot_2.png)
 
 <br><br>
 
@@ -34,7 +36,7 @@ The following aspects of using *LinearLayout* in Android are shown:
 
 ----
 
-# License
+## License ##
 
 <br>
 
